@@ -12,10 +12,11 @@ public class VarEx01 {
 		long num3 = 10;
 		System.out.println(num3);
 		
-		//int n1 = num1;/* 묵시적형변환 */
+		int n1 = num1;/* 묵시적형변환 */
 		/* byte n2 = num2; 오류*/
-		//byte n3 = (byte)num3; // 명시적 형변환
-		
+		System.out.println(n1);
+		byte n3 = (byte)num3; // 명시적 형변환
+		System.out.println(n3);
 		//int n4 = (int)num3;
 	}
 }
