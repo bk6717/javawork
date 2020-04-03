@@ -2,7 +2,7 @@ package array03;
 
 import java.util.Scanner;
 
-public class Array05 {
+public class ArrayEx06 {
 // 숫자 100000000 을 입력받고 3자리마다 콤마 찍어서 출력!
 // 1,000,000,000
 	public static void main(String[] args) {

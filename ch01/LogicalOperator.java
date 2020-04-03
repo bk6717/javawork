@@ -3,7 +3,7 @@ package ch01;
 import java.util.Scanner;
 
 // 성적입력프로그램
-public class ConEx03 {
+public class LogicalOperator {
 
 	public static void main(String[] args) {
 		System.out.println("성적을 입력하세요 :");

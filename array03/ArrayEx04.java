@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import javax.xml.transform.Templates;
 
-public class Array06 {
+public class ArrayEx04 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
