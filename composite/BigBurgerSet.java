@@ -1,6 +1,5 @@
 package composite;
 
-
 import lombok.Data;
 
 //자바는 다중 상속이 안된다.

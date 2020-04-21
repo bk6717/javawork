@@ -7,7 +7,7 @@ public class ShBurgerSet {
 
 	private ShBurger shBurger;
 	private Coke coke;
-	private FrenchFried feFrenchFried;
+	private FrenchFried frenchFried;
 
 	public ShBurgerSet() {
 		this(
@@ -18,9 +18,9 @@ public class ShBurgerSet {
 	}
 		
 	public ShBurgerSet(ShBurger shgBurger, Coke coke, FrenchFried frenchFried) {
-	//	this.shBurger = shBurger;
+		this.shBurger = shBurger;
 		this.coke = coke;
-	//	this.frenchFried = frenchFried;
+		this.frenchFried = frenchFried;
 }
 }
 

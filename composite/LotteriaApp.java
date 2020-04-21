@@ -10,7 +10,7 @@ public class LotteriaApp {
 		System.out.println();
 		//콜라 추가요.
 		Coke coke1 = new Coke();
-		
+		System.out.println();
 		//bigbIherSet 추가요!! 버거 1000원 할인쿠폰
 		BigBurgerSet set2 = new BigBurgerSet(
 						   new BigBurger(3000 ,"빅버거 할인"), 
@@ -18,7 +18,7 @@ public class LotteriaApp {
 						   new FrenchFried()
 						   );
 		System.out.println(set2.getBigBurger().getPrice());
-		
+		System.out.println();
 		// 2000 원 할인쿠폰
 		BigBurgerSet set3 = new BigBurgerSet(
 				new BigBurger(2000, "빅버거 할인")

@@ -9,12 +9,11 @@ public class CoffeeApp {
 		Barista barista = new Barista();
 		
 
-		
 		ArrayList<MenuItem> menuItems = 
 				new ArrayList<>();
-		menuItems.add(m1);
-		menuItems.add(m2);
-		menuItems.add(m3);
+	//	menuItems.add(m1);
+	//	menuItems.add(m2);
+	//	menuItems.add(m3);
 		//menuItems.add(menuItems.get(1).getName());
 		Menu menu = new Menu(menuItems);
 		consumer.주문("아메리카노", menu, barista);
