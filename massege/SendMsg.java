@@ -12,14 +12,14 @@ import net.nurigo.java_sdk.exceptions.CoolsmsException;
  */
 public class SendMsg {
 	
-	public SendMsg(String tel , String msg) {
+	public SendMsg(String number , String msg) {
 	 String api_key = "NCSJY0R5HELHF6OY"; //
 	    String api_secret = "D7PLQPTRL6VFTM2RYMR4JXJE6GYDXZ9S";
 	    Message coolsms = new Message(api_key, api_secret);
 
 	    // 4 params(to, from, type, text) are mandatory. must be filled
 	    HashMap<String, String> params = new HashMap<String, String>();
-	    params.put("to", tel);
+	    params.put("to", number);
 	    params.put("from", "01067176742");
 	    params.put("type", "LMS");
 	    params.put("text", msg);
