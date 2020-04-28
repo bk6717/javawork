@@ -20,7 +20,7 @@ public class Pawn extends JFrame {
   
   public MousePanel(){
    setLayout(null); // 레이아웃 널
-   ii = new JLabel("Hello"); // 레이블초기화
+//   ii = new JLabel("Hello"); // 레이블초기화
    la.setLocation(100,100); // 위치지정
    la.setSize(80,30); // jjj;;크기 지정
    add(la); // 패널에 추가 명령
