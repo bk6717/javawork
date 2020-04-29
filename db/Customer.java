@@ -7,6 +7,5 @@ public class Customer {
 	String phone;
 	
 public static void main(String[] args) {
-	
 }
 }

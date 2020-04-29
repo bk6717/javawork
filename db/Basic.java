@@ -7,5 +7,6 @@ public class Basic {
 		System.out.println("================================================");
 		CustomerList so2 = new CustomerList();
 		so2.printCustomer();
+		
 	}
 }
