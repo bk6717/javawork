@@ -85,8 +85,6 @@ public class Jump {
 		panel.setLayout(null);
 		
 		
-		lblNewLabel.setBounds(x, 122, 57, 15);
-		panel.add(lblNewLabel);
 	}
 	
 

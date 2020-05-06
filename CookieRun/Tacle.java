@@ -1,4 +1,4 @@
-package cookirun;
+package CookieRun;
 
 import java.awt.Image;
 
@@ -8,13 +8,13 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Monster {
-	
+public class Tacle {
 Image image;
 int x;
 int y;
 int width;
 int height;
 
+private int state;
 
 }
